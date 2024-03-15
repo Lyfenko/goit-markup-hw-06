@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "goit-markup-hw-04"
+version = "0.1.0"
+description = ""
+authors = ["Dmytro Lyfenko <114363730+Lyfenko@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "goit_markup_hw_04"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
