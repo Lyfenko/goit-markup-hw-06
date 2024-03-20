@@ -443,6 +443,15 @@ textarea {
     border-color: transparent;
 }
 
+.modal-privacy-link {
+    color: var(--primary-color);
+}
+
+.modal-privacy-link:hover,
+.modal-privacy-link:focus {
+    color: var(--secondary-color);
+}
+
 .modal-submit-btn {
     width: 169px;
     align-self: center;
