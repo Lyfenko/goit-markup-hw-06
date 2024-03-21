@@ -174,8 +174,8 @@ textarea {
 /* Header */
 .header {
     border-bottom: 1px solid var(--background-light);
-    box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08),
-    0 1px 1px rgba(46, 47, 66, 0.16), 0 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -421,7 +421,6 @@ textarea {
 .menu-soc-icon {
     fill: var(--background-dark);
 }
-
 /* Hero */
 .hero {
     background-color: var(--tertiary-color);
