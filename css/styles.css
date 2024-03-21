@@ -106,8 +106,8 @@ textarea {
 }
 
 .link {
-    text-decoration: none;
     display: inline-block;
+    text-decoration: none;
 }
 
 .button {
@@ -692,13 +692,13 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
-    .feature-card {
+    .features-card {
         flex-basis: calc((100% - 24px) / 2);
     }
 }
 
 @media screen and (min-width: 1158px) {
-    .feature-card {
+    .features-card {
         flex-basis: calc((100% - 72px) / 4);
     }
 }
@@ -719,7 +719,7 @@ textarea {
     }
 }
 
-.feature-card .sub-title {
+.features-card .sub-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11111;
@@ -727,13 +727,13 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
-    .feature-card .sub-title {
+    .features-card .sub-title {
         text-align: left;
     }
 }
 
 @media screen and (min-width: 1158px) {
-    .feature-card .sub-title {
+    .features-card .sub-title {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -903,39 +903,39 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
-  .footer-container {
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: baseline;
-    column-gap: 24px;
-  }
+    .footer-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: baseline;
+        column-gap: 24px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
-  .footer-container {
-    padding: 0 108px;
-  }
+    .footer-container {
+        padding: 0 108px;
+    }
 }
 
 @media screen and (min-width: 1158px) {
-  .footer-container {
-    column-gap: 0;
-    flex-wrap: nowrap;
-  }
+    .footer-container {
+        column-gap: 0;
+        flex-wrap: nowrap;
+    }
 }
 
 .footer-logo-box,
 .footer-social-box,
 .footer-subscribe-box {
-  text-align: center;
+    text-align: center;
 }
 
 @media screen and (min-width: 768px) {
-  .footer-logo-box,
-  .footer-social-box,
-  .footer-subscribe-box {
-    text-align: left;
-  }
+    .footer-logo-box,
+    .footer-social-box,
+    .footer-subscribe-box {
+        text-align: left;
+    }
 }
 
 .footer-logo-box {
@@ -944,9 +944,9 @@ textarea {
 }
 
 @media screen and (min-width: 1158px) {
-  .footer-logo-box {
-    margin-right: 120px;
-  }
+    .footer-logo-box {
+        margin-right: 120px;
+    }
 }
 
 .footer-logo {
@@ -959,9 +959,9 @@ textarea {
 }
 
 @media screen and (min-width: 1158px) {
-  .footer-social-box {
-    margin-right: 80px;
-  }
+    .footer-social-box {
+        margin-right: 80px;
+    }
 }
 
 .footer-social-text,
@@ -996,14 +996,14 @@ textarea {
 }
 
 .footer-subscribe-box {
-  width: 100%;
-  max-width: 398px;
+    width: 100%;
+    max-width: 398px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
-  .footer-subscribe-box {
-    max-width: 453px;
-  }
+    .footer-subscribe-box {
+        max-width: 453px;
+    }
 }
 
 .footer-subscribe-form {
@@ -1014,20 +1014,20 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
-  .footer-subscribe-form {
-    flex-direction: row;
-    gap: 24px;
-  }
+    .footer-subscribe-form {
+        flex-direction: row;
+        gap: 24px;
+    }
 }
 
 .footer-email {
-  width: 100%;
+    width: 100%;
 }
 
 @media screen and (min-width: 768px) {
-  .footer-email {
-    width: 264px;
-  }
+    .footer-email {
+        width: 264px;
+    }
 }
 
 .footer-email-input {
@@ -1042,9 +1042,9 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
-  .footer-email-input {
-    max-width: 264px;
-  }
+    .footer-email-input {
+        max-width: 264px;
+    }
 }
 
 .footer-email-input,
@@ -1057,14 +1057,14 @@ textarea {
 }
 
 .footer-email-input::placeholder {
-  opacity: 0.6;
+    opacity: 0.6;
 }
 
 @media screen and (min-width: 1158px) {
-  .footer-email-input,
-  .footer-email-input::placeholder {
-    opacity: 1;
-  }
+    .footer-email-input,
+    .footer-email-input::placeholder {
+        opacity: 1;
+    }
 }
 
 .footer-email-input:focus {
@@ -1093,15 +1093,15 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
-  .section.portfolio {
-    padding-top: 64px;
-  }
+    .section.portfolio {
+        padding-top: 64px;
+    }
 }
 
 @media screen and (min-width: 1158px) {
-  .section.portfolio {
-    padding-top: 100px;
-  }
+    .section.portfolio {
+        padding-top: 100px;
+    }
 }
 
 .filters-list {
@@ -1111,16 +1111,16 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
-  .filters-list {
-    justify-content: center;
-    margin-bottom: 64px;
-  }
+    .filters-list {
+        justify-content: center;
+        margin-bottom: 64px;
+    }
 }
 
 @media screen and (min-width: 1158px) {
-  .filters-list {
-    margin-bottom: 72px;
-  }
+    .filters-list {
+        margin-bottom: 72px;
+    }
 }
 
 .filter-btn {
@@ -1132,9 +1132,9 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
-  .filter-btn {
-    padding: 12px 24px;
-  }
+    .filter-btn {
+        padding: 12px 24px;
+    }
 }
 
 .filter-btn.active,
@@ -1154,15 +1154,15 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
-  .projects {
-    justify-content: flex-start;
-  }
+    .projects {
+        justify-content: flex-start;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
-  .projects {
-    row-gap: 72px;
-  }
+    .projects {
+        row-gap: 72px;
+    }
 }
 
 /* Projects */
@@ -1176,15 +1176,15 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
-  .project-card {
-    flex-basis: calc((100% - 24px) / 2);
-  }
+    .project-card {
+        flex-basis: calc((100% - 24px) / 2);
+    }
 }
 
 @media screen and (min-width: 1158px) {
-  .project-card {
-    flex-basis: calc((100% - 48px) / 3);
-  }
+    .project-card {
+        flex-basis: calc((100% - 48px) / 3);
+    }
 }
 
 .project-card:hover,
@@ -1199,7 +1199,7 @@ textarea {
 }
 
 .card-thumb img {
-  width: 100%;
+    width: 100%;
 }
 
 .card-overlay {
